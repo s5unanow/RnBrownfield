@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RnBrownfieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RnBrownfieldTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RnBrownfield.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RnBrownfield.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-RnBrownfield-RnBrownfieldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnBrownfield-RnBrownfieldTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		EE3B0EE52B4408C800E69C0C /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EDA2B4408C800E69C0C /* AccessibilityViewController.swift */; };
+		EE3B0EE62B4408C800E69C0C /* PersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EDB2B4408C800E69C0C /* PersonalInformationViewController.swift */; };
+		EE3B0EE72B4408C800E69C0C /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EDC2B4408C800E69C0C /* AppearanceViewController.swift */; };
+		EE3B0EE82B4408C800E69C0C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EDD2B4408C800E69C0C /* SettingsViewController.swift */; };
+		EE3B0EE92B4408C800E69C0C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EDF2B4408C800E69C0C /* HomeViewController.swift */; };
+		EE3B0EEB2B4408C800E69C0C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EE12B4408C800E69C0C /* MainTabBarController.swift */; };
+		EE3B0EEC2B4408C800E69C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EE22B4408C800E69C0C /* AppDelegate.swift */; };
+		EE51DC932B579A11008D5B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE51DC912B579A11008D5B74 /* LaunchScreen.storyboard */; };
+		EEDA6AA42B4453160017387F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3B0EE02B4408C800E69C0C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,19 +36,23 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RnBrownfieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RnBrownfieldTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RnBrownfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RnBrownfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RnBrownfield/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RnBrownfield/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RnBrownfield/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RnBrownfield/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RnBrownfield/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnBrownfield-RnBrownfieldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnBrownfield-RnBrownfieldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-RnBrownfield.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnBrownfield.debug.xcconfig"; path = "Target Support Files/Pods-RnBrownfield/Pods-RnBrownfield.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RnBrownfield.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnBrownfield.release.xcconfig"; path = "Target Support Files/Pods-RnBrownfield/Pods-RnBrownfield.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RnBrownfield-RnBrownfieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnBrownfield-RnBrownfieldTests.debug.xcconfig"; path = "Target Support Files/Pods-RnBrownfield-RnBrownfieldTests/Pods-RnBrownfield-RnBrownfieldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RnBrownfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnBrownfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RnBrownfield/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RnBrownfield-RnBrownfieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnBrownfield-RnBrownfieldTests.release.xcconfig"; path = "Target Support Files/Pods-RnBrownfield-RnBrownfieldTests/Pods-RnBrownfield-RnBrownfieldTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE3B0EDA2B4408C800E69C0C /* AccessibilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
+		EE3B0EDB2B4408C800E69C0C /* PersonalInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformationViewController.swift; sourceTree = "<group>"; };
+		EE3B0EDC2B4408C800E69C0C /* AppearanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
+		EE3B0EDD2B4408C800E69C0C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EE3B0EDF2B4408C800E69C0C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE3B0EE02B4408C800E69C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3B0EE12B4408C800E69C0C /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		EE3B0EE22B4408C800E69C0C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE3B0EE32B4408C800E69C0C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE51DC922B579A11008D5B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../RNBrownfieldTest/RNBrownfieldTest/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,19 +92,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* RnBrownfield */ = {
-			isa = PBXGroup;
-			children = (
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				13B07FB71A68108700A75B9A /* main.m */,
-			);
-			name = RnBrownfield;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +112,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* RnBrownfield */,
+				EE3B0ED82B4408C800E69C0C /* RnBrownfield */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RnBrownfieldTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -146,6 +142,47 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-RnBrownfield-RnBrownfieldTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE3B0ED82B4408C800E69C0C /* RnBrownfield */ = {
+			isa = PBXGroup;
+			children = (
+				EE3B0ED92B4408C800E69C0C /* Settings */,
+				EE3B0EDE2B4408C800E69C0C /* Home */,
+				EE3B0EE02B4408C800E69C0C /* Assets.xcassets */,
+				EE3B0EE12B4408C800E69C0C /* MainTabBarController.swift */,
+				EE3B0EE22B4408C800E69C0C /* AppDelegate.swift */,
+				EE51DC912B579A11008D5B74 /* LaunchScreen.storyboard */,
+				EE3B0EE32B4408C800E69C0C /* Info.plist */,
+				EE3B0EE42B4408C800E69C0C /* ReactNative */,
+			);
+			path = RnBrownfield;
+			sourceTree = "<group>";
+		};
+		EE3B0ED92B4408C800E69C0C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE3B0EDA2B4408C800E69C0C /* AccessibilityViewController.swift */,
+				EE3B0EDB2B4408C800E69C0C /* PersonalInformationViewController.swift */,
+				EE3B0EDC2B4408C800E69C0C /* AppearanceViewController.swift */,
+				EE3B0EDD2B4408C800E69C0C /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE3B0EDE2B4408C800E69C0C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE3B0EDF2B4408C800E69C0C /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE3B0EE42B4408C800E69C0C /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReactNative;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +216,7 @@
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
+				EEDA6AA32B4452FA0017387F /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
@@ -237,12 +274,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+		EEDA6AA32B4452FA0017387F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				EEDA6AA42B4453160017387F /* Assets.xcassets in Resources */,
+				EE51DC932B579A11008D5B74 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +429,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				EE3B0EEB2B4408C800E69C0C /* MainTabBarController.swift in Sources */,
+				EE3B0EEC2B4408C800E69C0C /* AppDelegate.swift in Sources */,
+				EE3B0EE72B4408C800E69C0C /* AppearanceViewController.swift in Sources */,
+				EE3B0EE52B4408C800E69C0C /* AccessibilityViewController.swift in Sources */,
+				EE3B0EE62B4408C800E69C0C /* PersonalInformationViewController.swift in Sources */,
+				EE3B0EE92B4408C800E69C0C /* HomeViewController.swift in Sources */,
+				EE3B0EE82B4408C800E69C0C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,11 +449,23 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		EE51DC912B579A11008D5B74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE51DC922B579A11008D5B74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RnBrownfield-RnBrownfieldTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -439,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RnBrownfield-RnBrownfieldTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RnBrownfieldTests/Info.plist;
@@ -480,8 +535,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RnBrownfield;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -506,7 +565,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RnBrownfield;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -544,7 +607,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -572,6 +635,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -579,7 +643,14 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -616,7 +687,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -636,6 +707,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -643,7 +715,14 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
