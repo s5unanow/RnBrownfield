@@ -1,9 +1,9 @@
 import UIKit
 
-class PersonalInformationViewController: UIViewController {
+class PersonalInformationViewController: RNBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+//        view.backgroundColor = .white
         self.title = "Personal Information"
     }
 }

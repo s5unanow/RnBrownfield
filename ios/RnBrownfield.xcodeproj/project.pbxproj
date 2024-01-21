@@ -10,6 +10,8 @@
 		00E356F31AD99517003FC87E /* RnBrownfieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RnBrownfieldTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RnBrownfield.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RnBrownfield.a */; };
 		7699B88040F8A987B510C191 /* libPods-RnBrownfield-RnBrownfieldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnBrownfield-RnBrownfieldTests.a */; };
+		EE2BF66E2B5CE14700988F5F /* RNBridgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2BF66D2B5CE14700988F5F /* RNBridgeManager.swift */; };
+		EE2BF6702B5D3E1E00988F5F /* RNBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2BF66F2B5D3E1E00988F5F /* RNBaseViewController.swift */; };
 		EE3B0EE52B4408C800E69C0C /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EDA2B4408C800E69C0C /* AccessibilityViewController.swift */; };
 		EE3B0EE62B4408C800E69C0C /* PersonalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EDB2B4408C800E69C0C /* PersonalInformationViewController.swift */; };
 		EE3B0EE72B4408C800E69C0C /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B0EDC2B4408C800E69C0C /* AppearanceViewController.swift */; };
@@ -43,6 +45,8 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-RnBrownfield.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnBrownfield.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RnBrownfield-RnBrownfieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnBrownfield-RnBrownfieldTests.release.xcconfig"; path = "Target Support Files/Pods-RnBrownfield-RnBrownfieldTests/Pods-RnBrownfield-RnBrownfieldTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE2BF66D2B5CE14700988F5F /* RNBridgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBridgeManager.swift; sourceTree = "<group>"; };
+		EE2BF66F2B5D3E1E00988F5F /* RNBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBaseViewController.swift; sourceTree = "<group>"; };
 		EE3B0EDA2B4408C800E69C0C /* AccessibilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
 		EE3B0EDB2B4408C800E69C0C /* PersonalInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformationViewController.swift; sourceTree = "<group>"; };
 		EE3B0EDC2B4408C800E69C0C /* AppearanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 		EE3B0EE42B4408C800E69C0C /* ReactNative */ = {
 			isa = PBXGroup;
 			children = (
+				EE2BF66D2B5CE14700988F5F /* RNBridgeManager.swift */,
+				EE2BF66F2B5D3E1E00988F5F /* RNBaseViewController.swift */,
 			);
 			path = ReactNative;
 			sourceTree = "<group>";
@@ -429,6 +435,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2BF6702B5D3E1E00988F5F /* RNBaseViewController.swift in Sources */,
+				EE2BF66E2B5CE14700988F5F /* RNBridgeManager.swift in Sources */,
 				EE3B0EEB2B4408C800E69C0C /* MainTabBarController.swift in Sources */,
 				EE3B0EEC2B4408C800E69C0C /* AppDelegate.swift in Sources */,
 				EE3B0EE72B4408C800E69C0C /* AppearanceViewController.swift in Sources */,
